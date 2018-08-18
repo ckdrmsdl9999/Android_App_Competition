@@ -37,4 +37,7 @@ https://github.com/mash-up-kr/android-study/tree/master/신입%20스터디
 - AsyncTask 이용 ( 범용적 )
 http://webnautes.tistory.com/829
 
+- 이미지 업로드 : http://answerofgod.tistory.com/entry/Android에서-image-BLOB-MySQL에-저장하기
+
+
 
