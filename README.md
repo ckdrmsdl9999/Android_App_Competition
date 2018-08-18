@@ -11,6 +11,7 @@
 - 게시판 목록
 - 같이 놀자 / 같이 먹자 
    
+   
 < 서버 연동 >
 - 맥 apache + phpmyadmin + mysql 연동 방법 : https://lepidopodus.net/?p=115 
 - 계정 : root / 암호 : 초기 설정 암호
