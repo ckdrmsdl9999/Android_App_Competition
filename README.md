@@ -34,6 +34,7 @@ https://github.com/mash-up-kr/android-study/tree/master/신입%20스터디
 - 서버 연동 예제 : http://gakari.tistory.com/entry/안드로이드-프로젝트3-데이터베이스-및-서버-구축
 - gradle에 volley 라이브러리 추가 / manifest에 인터넷 권한 추가 
 ///
-- AsyncTask이용할것 
+- AsyncTask 이용 ( 범용적 )
+http://webnautes.tistory.com/829
 
 
