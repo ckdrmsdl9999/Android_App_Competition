@@ -25,6 +25,9 @@
 intent와 activity 
 manifest 
 
+
+< 기본 개념 정리 깃허브 >
+https://github.com/mash-up-kr/android-study/tree/master/신입%20스터디
    
    
 < 서버 연동 >
