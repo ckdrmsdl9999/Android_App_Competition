@@ -1,6 +1,6 @@
 <?php
 
-   $con = mysqli_connect('127.0.0.1', 'root', 'tifkdgo1', 'Android');
+   $con = mysqli_connect('127.0.0.1', 'root', '내 암호 입력', 'Android');
    //$con = mysqli_connect("localhost","my_user","my_password","my_db");
    if (!$con)
   {
