@@ -19,11 +19,10 @@
 1-1. 로그인 / 회원가입
 1-2. 게시판 RRUD 
 2. 위치 정보 이용하기
-3. 메뉴바 사용 
 ==================
 기본 개념
-intent와 activity 
-manifest 
+- intent와 activity 
+- manifest 
 
 
 < 기본 개념 정리 깃허브 >
