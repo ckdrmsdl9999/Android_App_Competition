@@ -40,4 +40,12 @@ http://webnautes.tistory.com/829
 - 이미지 업로드 : http://answerofgod.tistory.com/entry/Android에서-image-BLOB-MySQL에-저장하기
 
 
+라이브러리 안 쓸 때 :
+
+https://www.simplifiedcoding.net/android-login-and-registration-tutorial/#Creating-Web-Services
+
+Volley 라이브러리 사용할 때 :
+
+https://www.simplifiedcoding.net/android-volley-tutorial/#comment-13681
+
 
