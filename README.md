@@ -49,3 +49,5 @@ Volley 라이브러리 사용할 때 :
 https://www.simplifiedcoding.net/android-volley-tutorial/#comment-13681
 
 
+리사이클러뷰 feed page
+https://www.simplifiedcoding.net/android-feed-example-using-php-mysql-volley/
