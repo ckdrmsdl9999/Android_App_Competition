@@ -51,3 +51,5 @@ https://www.simplifiedcoding.net/android-feed-example-using-php-mysql-volley/
 
 REF for recyclerView
 https://www.cmprogrammers.com/search.php?input=android
+
+http://camposha.info/source/android-php-mysql-recyclerview-select-fill
