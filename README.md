@@ -43,11 +43,11 @@ http://webnautes.tistory.com/829
 라이브러리 안 쓸 때 :
 
 https://www.simplifiedcoding.net/android-login-and-registration-tutorial/#Creating-Web-Services
-
-Volley 라이브러리 사용할 때 :
-
-https://www.simplifiedcoding.net/android-volley-tutorial/#comment-13681
-
+< FAILED >
 
 리사이클러뷰 feed page
 https://www.simplifiedcoding.net/android-feed-example-using-php-mysql-volley/
+< NOT TRIED >
+
+REF for recyclerView
+https://www.cmprogrammers.com/search.php?input=android
