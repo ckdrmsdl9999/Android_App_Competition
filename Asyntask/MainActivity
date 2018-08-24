@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     String id = null;
     String pw = null;
     String name = null;
-
+    String mJsonString = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,10 +77,10 @@ public class MainActivity extends AppCompatActivity {
             super.onPostExecute(s);
             String check = "success";
             System.out.println(s);
-            if(s.equals(check)){
+            if(s.equals(check)){ // 등록 성공
                 Toast.makeText(getApplicationContext(), "회원가입 완료" , Toast.LENGTH_LONG).show();
             }
-            if(s.equals("exist")){
+            if(s.equals("exist")){ // 아이디 중복
                 Toast.makeText(getApplicationContext(), "이미 id가 존재합니다." , Toast.LENGTH_LONG).show();
             }
 
@@ -157,10 +157,38 @@ public class MainActivity extends AppCompatActivity {
             String check = "success";
             System.out.println(s);
             System.out.println(s.equals(check));
-            if(s.trim().equalsIgnoreCase("success")) {
-                Intent intent = new Intent(MainActivity.this , WelcomeActivity.class);
-                startActivity(intent);
+
+            String status = null;
+            String jId = null;
+            String jPw = null;
+            String jName = null; // json파일에서 가져올 스트링들
+            mJsonString = s;
+            try {
+                JSONObject jsonObject = new JSONObject(mJsonString);
+                JSONArray jsonArray =  jsonObject.getJSONArray("testing");
+                for(int i = 0 ; i < jsonArray.length();i++){
+                    JSONObject item = jsonArray.getJSONObject(i);
+
+                    status = item.getString("status");
+                    jId = item.getString("id");
+                    jPw = item.getString("pw");
+                    jName = item.getString("name");
+                }
+            }catch(Exception e){
+                e.printStackTrace();
             }
+
+            System.out.println("id : " + jId + "pw: " + jPw + "name: " + jName);
+
+            CurrentUser user = new CurrentUser();
+            if(status.equals(check)) {
+                user.setId(jId);
+                user.setPw(jPw);
+                user.setName(jName);
+            }
+
+
+            System.out.println("Setter & Getter check : " + user.getId() + " " + user.getName() + " " + user.getPw());
 
 
         }
