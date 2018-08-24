@@ -80,6 +80,9 @@ public class MainActivity extends AppCompatActivity {
             if(s.equals(check)){
                 Toast.makeText(getApplicationContext(), "회원가입 완료" , Toast.LENGTH_LONG).show();
             }
+            if(s.equals("exist")){
+                Toast.makeText(getApplicationContext(), "이미 id가 존재합니다." , Toast.LENGTH_LONG).show();
+            }
 
 
         }
