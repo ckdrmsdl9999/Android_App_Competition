@@ -157,12 +157,15 @@ public class MainActivity extends AppCompatActivity {
             String check = "success";
             System.out.println(s);
             System.out.println(s.equals(check));
-
+            //log check
+            
             String status = null;
             String jId = null;
             String jPw = null;
             String jName = null; // json파일에서 가져올 스트링들
             mJsonString = s;
+            
+            // jSon 처리 후 getter & setter에 저장, SharedPreference 이용 예정
             try {
                 JSONObject jsonObject = new JSONObject(mJsonString);
                 JSONArray jsonArray =  jsonObject.getJSONArray("testing");
@@ -179,6 +182,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             System.out.println("id : " + jId + "pw: " + jPw + "name: " + jName);
+            //log check
 
             CurrentUser user = new CurrentUser();
             if(status.equals(check)) {
