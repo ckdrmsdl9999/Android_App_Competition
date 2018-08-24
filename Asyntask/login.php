@@ -25,8 +25,8 @@
 				$staus = "success";
 				array_push($data,
 					array(
-						'status'=>"success",
-						'id'=>$row["id"],
+						'status'=>"success", // to set getter & setter in Activity
+						'id'=>$row["id"], 
 						'pw'=>$row["pw"],
 						'name'=>$row["name"]
 					));
